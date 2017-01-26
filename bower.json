@@ -1,0 +1,21 @@
+{
+  "name": "Nava",
+  "homepage": "https://github.com/Romchigan/Nava",
+  "authors": [
+    "Romchigan <ronaldo.mail97@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
