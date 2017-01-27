@@ -1,10 +1,16 @@
 .header-section {
   position: absolute;
-  top: 0;
+  top: 40px;
   width: 100%;
   padding: 0 5% 0 5%;
 }
 
-.nav li {
+.nav .nav-item {
   display: inline-block;
+  &:first-child {
+    padding-right: 45px;
+  }
+  a {
+    color: $light-blue;
+  }
 }
