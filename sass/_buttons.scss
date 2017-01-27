@@ -1,0 +1,25 @@
+.btn {
+  &-sign-up {
+    border-radius: 5px;
+    border: 1px solid $light-blue;
+    background-color: rgba(201, 9, 4, 0);
+    padding: 10px 40px;
+    color: $light-blue;
+    font: 700 16px/22px Raleway;
+    margin-left: 40px;
+    &:focus {
+      outline: none;
+    }
+  }
+  &-find-boat {
+    position: relative;
+    left: -3px;
+    border-radius: 0 5px 5px 0;
+    background-color: #e7434e;
+    border: none;
+    padding: 18px 40px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
