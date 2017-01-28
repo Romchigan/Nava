@@ -56,6 +56,23 @@
   outline: none;
 }
 
+#ui-id-1 {
+  background-color: $white;
+  list-style-type: none;
+  width: 32%;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 10px;
+  li:hover {
+    background-color: #ccc;
+  }
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+
 .icon-boat {
   position: relative;
   right: 5px;
