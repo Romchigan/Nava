@@ -11,13 +11,51 @@
       outline: none;
     }
   }
-  &-find-boat {
+  &-boat {
     position: relative;
     left: -3px;
-    border-radius: 0 5px 5px 0;
     background-color: #e7434e;
     border: none;
     padding: 18px 40px;
+    &-find {
+      border-radius: 0 5px 5px 0;
+      &:focus {
+        outline: none;
+      }
+    }
+    &-own {
+      border-radius: 5px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  &-destination {
+    border-radius: 5px;
+    background-color: #e7434e;
+    font: 700 1rem/1.4rem Open Sans;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    &-country {
+      padding: 10px 16px 10px 22px;
+    }
+    &-boat {
+      padding: 10px 16px 10px 10px;
+    }
+  }
+  &-explore-more {
+    color: #343434;
+    font: 700 14px/22px Raleway;
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    margin: 70px auto 80px;
+    padding: 20px 50px;
     &:focus {
       outline: none;
     }
