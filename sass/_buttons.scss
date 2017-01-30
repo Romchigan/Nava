@@ -11,23 +11,25 @@
       outline: none;
     }
   }
-  &-boat {
+  &-search {
     position: relative;
-    left: -3px;
+    left: -4px;
     background-color: #e7434e;
     border: none;
-    padding: 18px 40px;
+    &:focus {
+      outline: none;
+    }
     &-find {
       border-radius: 0 5px 5px 0;
-      &:focus {
-        outline: none;
-      }
+      padding: 18px 40px;
     }
     &-own {
       border-radius: 5px;
-      &:focus {
-        outline: none;
-      }
+      padding: 18px 40px;
+    }
+    &-footer {
+      padding: 9px 27px;
+      border-radius: 0 5px 5px 0;
     }
   }
   &-destination {
@@ -54,10 +56,72 @@
     background-color: $white;
     border-radius: 5px;
     border: 1px solid rgba(38, 38, 38, 0.3);
-    margin: 70px auto 80px;
+    margin: 70px auto 0;
     padding: 20px 50px;
     &:focus {
       outline: none;
     }
   }
 }
+
+.social {
+  margin-top: 30px;
+  text-align: center;
+  @media screen and (max-width: 769px)  {
+    margin-left: 50px;
+  }
+  .smGlobalBtn{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    text-decoration: none;
+    color: $white;
+    font-size: 20px;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+  }
+  .facebookBtn{
+    background: #717171;
+    padding: 2px 0 0 15px;
+    &:before{
+      font-family: "FontAwesome";
+      content: "\f09a";
+    }
+    &:hover{
+      color: #4060A5;
+      background: $white;
+    }
+  }
+  .twitterBtn{
+    padding: 3px 0 0 14px;
+    background: #717171;
+    margin-left: 10px;
+    &:before{
+      font-family: "FontAwesome";
+      content: "\f099";
+    }
+    &:hover{
+      color: #00ABE3;
+      background: $white;
+    }
+  }
+  .googleplusBtn{
+    padding: 3px 0 0 10px;
+    background: #717171;
+    margin-left: 10px;
+    &:before{
+      font-family: "FontAwesome";
+      content: "\f0d5";
+    }
+    &:hover{
+      color: #e64522;
+      background: $white;
+    }
+  }
+}
+
