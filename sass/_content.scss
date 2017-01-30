@@ -71,6 +71,8 @@
   margin: 0 15px 30px;
   &:first-child {
     flex-basis: auto;
+  }
+  &-destinations-large {
     @media screen and (max-width: 866px)  {
       width: 370px;
     }

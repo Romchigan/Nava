@@ -5,6 +5,10 @@
     overflow: hidden;
     z-index: -100;
     background-color: #555555;
+    @media (max-width: 600px) {
+      background: url('../video/poster-sail.jpg') center center / cover no-repeat;
+      background-color: #555555;
+    }
   }
   &-own-boat {
     margin-top: 80px;
@@ -12,7 +16,6 @@
     width: 100%;
     height: 70vh;
     overflow: hidden;
-    z-index: -100;
     background-color: #555555;
   }
   &-content {
@@ -78,6 +81,9 @@
     min-width: 100%;
     min-height: 100%;
     opacity: 0.6;
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
 }
 
