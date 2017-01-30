@@ -28,7 +28,9 @@ jQuery(function ($) {
         }
     });
 
-
+    $('.destinations:nth-child(2)').dialog({
+        autoOpen: false;
+    })
 
 
 
