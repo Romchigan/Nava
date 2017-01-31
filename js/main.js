@@ -28,10 +28,13 @@ jQuery(function ($) {
         }
     });
 
-    $('.destinations:nth-child(2)').dialog({
-        autoOpen: false;
-    })
 
+    $('.modal-dest').on('click', function () {
+        var head = $('h1', this).text(),
+            subHead = $('p', this).text();
 
+        $('#modalWindow h1').text('City or port : '+head);
+        $('#modalWindow p').text('Country : '+subHead);
+    });
 
 });

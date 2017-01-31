@@ -82,169 +82,178 @@
 			</h2>
 		</div>
 	</div>
+	<div id="modalWindow" style="display: none">
+		<h1></h1>
+		<p></p>
+		<a href="#" rel="modal:close">Close</a>
+	</div>
 	<div class="container pl-0 pr-0">
 		<div class="row ">
 			<ul class="destinations-wrap d-flex flex-wrap align-items-center justify-content-center pl-0 mb-0">
-				<li class="destinations destinations-large" data-toggle="modal" data-target="#modalImg1">
-					<div class="modal fade" id="modalImg1" tabindex="-1" role="dialog" aria-labelledby="modalImg1" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h4 class="modal-title text-uppercase" id="modalImg1">Figueira da Foz</h4>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div>
-								<div class="modal-body">
-									<h6 class="text-uppercase">Portugal</h6>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								</div>
+				<li class="destinations destinations-large">
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/portugal.png" alt="portugal" width="770px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Figueira da Foz</h1>
+								<p class="destinations-sub-heading text-white mb-0">Portugal</p>
 							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								730
+							</button>
 						</div>
-					</div>
-					<div class="destinations-inner">
-						<img src="img/destinations/portugal.png" alt="portugal" width="770px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Figueira da Foz</h1>
-							<p class="destinations-sub-heading text-white mb-0">Portugal</p>
-						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							730
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations">
-					<div class="destinations-inner">
-						<img src="img/destinations/spain.png" alt="spain" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Ibiza</h1>
-							<p class="destinations-sub-heading text-white mb-0">Spain</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/spain.png" alt="spain" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Ibiza</h1>
+								<p class="destinations-sub-heading text-white mb-0">Spain</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								621
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							621
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations">
-					<div class="destinations-inner">
-						<img src="img/destinations/mallorca.png" alt="mallorca" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Palma de Mallorca</h1>
-							<p class="destinations-sub-heading text-white mb-0">Spain</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/mallorca.png" alt="mallorca" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Palma de Mallorca</h1>
+								<p class="destinations-sub-heading text-white mb-0">Spain</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								543
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							543
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations">
-					<div class="destinations-inner">
-						<img src="img/destinations/italy.png" alt="italy" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Portofino</h1>
-							<p class="destinations-sub-heading text-white mb-0">Italy</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/italy.png" alt="italy" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Portofino</h1>
+								<p class="destinations-sub-heading text-white mb-0">Italy</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								495
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							495
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations">
-					<div class="destinations-inner">
-						<img src="img/destinations/monaco.png" alt="spain" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Port Hercules</h1>
-							<p class="destinations-sub-heading text-white mb-0">Monaco</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/monaco.png" alt="spain" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Port Hercules</h1>
+								<p class="destinations-sub-heading text-white mb-0">Monaco</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								402
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							402
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations destinations-hide">
-					<div class="destinations-inner">
-						<img src="img/destinations/marina.jpg" alt="rio-marina" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Rio Marina</h1>
-							<p class="destinations-sub-heading text-white mb-0">Italy</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/marina.jpg" alt="rio-marina" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Rio Marina</h1>
+								<p class="destinations-sub-heading text-white mb-0">Italy</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								546
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							546
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations destinations-hide">
-					<div class="destinations-inner">
-						<img src="img/destinations/croatia.jpg" alt="croatia" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Novigrad</h1>
-							<p class="destinations-sub-heading text-white mb-0">Croatia</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/croatia.jpg" alt="croatia" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Novigrad</h1>
+								<p class="destinations-sub-heading text-white mb-0">Croatia</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								648
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							648
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations destinations-hide">
-					<div class="destinations-inner">
-						<img src="img/destinations/france.jpg" alt="france" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Port de Villefranche</h1>
-							<p class="destinations-sub-heading text-white mb-0">France</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/france.jpg" alt="france" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Port de Villefranche</h1>
+								<p class="destinations-sub-heading text-white mb-0">France</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								580
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							580
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations destinations-hide">
-					<div class="destinations-inner">
-						<img src="img/destinations/nice.jpg" alt="nice" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Port Nice</h1>
-							<p class="destinations-sub-heading text-white mb-0">Nice</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/nice.jpg" alt="nice" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Port Nice</h1>
+								<p class="destinations-sub-heading text-white mb-0">Nice</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								640
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							640
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations destinations-hide">
-					<div class="destinations-inner">
-						<img src="img/destinations/dubrovnik.jpg" alt="dubrovnik" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Dubrovnik</h1>
-							<p class="destinations-sub-heading text-white mb-0">Croatia</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/dubrovnik.jpg" alt="dubrovnik" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Dubrovnik</h1>
+								<p class="destinations-sub-heading text-white mb-0">Croatia</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								423
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							423
-						</button>
-					</div>
+					</a>
 				</li>
 				<li class="destinations destinations-hide">
-					<div class="destinations-inner">
-						<img src="img/destinations/antalya.jpg" alt="antalya" width="370px" height="360px">
-						<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
-							<h1 class="destinations-heading text-white">Antalya</h1>
-							<p class="destinations-sub-heading text-white mb-0">Turkey</p>
+					<a href="#modalWindow" rel="modal:open" class="modal-dest">
+						<div class="destinations-inner">
+							<img src="img/destinations/antalya.jpg" alt="antalya" width="370px" height="360px">
+							<div class="destinations-heading-wrap d-flex align-items-start flex-wrap flex-column">
+								<h1 class="destinations-heading text-white">Antalya</h1>
+								<p class="destinations-sub-heading text-white mb-0">Turkey</p>
+							</div>
+							<button type="button" class="btn-destination btn-destination-country text-white">
+								<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
+								380
+							</button>
 						</div>
-						<button type="button" class="btn-destination btn-destination-country text-white">
-							<img src="img/destinations/icon-boat.png" alt="boat" class="icon-amount-boat">
-							380
-						</button>
-					</div>
+					</a>
 				</li>
 			</ul>
 			<button type="button" class="text-uppercase btn-explore-more" id="explore-more">Explore more destinations</button>
@@ -256,30 +265,12 @@
 			<source src="video/Sail-Away.mp4" type="video/mp4">
 			<source src="video/Sail-Away.ogv" type="video/ogv">
 		</video>
-	<div class="modal fade" id="modalBtn" tabindex="-1" role="dialog" aria-labelledby="modalBtn" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4 class="modal-title text-uppercase" id="exampleModalLongTitle">Have your own boat?</h4>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<h6 class="text-uppercase">navigare necesse est, vivere non est necesse</h6>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
 		<section class="banner-content text-center">
 			<h1 class="banner-heading text-uppercase">Have your own boat?</h1>
 			<h2 class="banner-sub-heading text-uppercase">navigare necesse est, vivere non est necesse</h2>
-			<button type="submit" class="btn-search btn-search-own text-uppercase text-white" data-toggle="modal" data-target="#modalBtn">Make money with your boat</button>
+			<a href="#modalBoat" rel="modal:open" class="modal-boat btn-search btn-search-own text-uppercase text-white">
+				Make money with your boat
+			</a>
 		</section>
 	</section>
 	<div class="container">
@@ -439,12 +430,15 @@
 			</div>
 		</div>
 	</footer>
-
-
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<div id="modalBoat" style="display: none">
+		<h3>Have your own boat?</h3>
+		<p>navigare necesse est, vivere non est necesse</p>
+		<a href="#" rel="modal:close">Close</a>
+	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="bower_components/jquery-modal/jquery.modal.js"></script>
 	<script src="bower_components/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
 </body>

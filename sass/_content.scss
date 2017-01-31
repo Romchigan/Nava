@@ -72,7 +72,7 @@
   &:first-child {
     flex-basis: auto;
   }
-  &-destinations-large {
+  &-large {
     @media screen and (max-width: 866px)  {
       width: 370px;
     }
