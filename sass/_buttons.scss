@@ -10,6 +10,19 @@
     &:focus {
       outline: none;
     }
+    @media only screen and (max-width: 570px)  {
+      padding: 8px 30px;
+      font-size: 12px;
+    }
+    @media only screen and (max-width: 450px)  {
+      padding: 6px 25px;
+      font-size: 10px;
+    }
+    @media only screen and (max-width: 365px)  {
+      padding: 5px 18px;
+      font-size: 10px;
+      margin-left: 1rem;
+    }
   }
   &-search {
     position: relative;
@@ -22,6 +35,11 @@
     &-find {
       border-radius: 0 5px 5px 0;
       padding: 18px 40px;
+      font: 700 14px/22px Raleway;
+      @media screen and (max-width: 650px)  {
+        padding: 12px 15px;
+        font-size: 9px;
+      }
     }
     &-own {
       border-radius: 5px;
@@ -30,6 +48,10 @@
     &-footer {
       padding: 9px 27px;
       border-radius: 0 5px 5px 0;
+      @media screen and (max-width: 400px)  {
+        padding: 9px 12px;
+        font-size: 12px;
+      }
     }
   }
   &-destination {
